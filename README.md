@@ -39,5 +39,5 @@ Provides information on player name and No. shirt that he wears. Also, the playe
         }
     }
    
-#
-![alt tag](https://football-manager-2016.herokuapp.com/assets/football_manager_2016_bkg.jpg)
+
+
