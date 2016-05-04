@@ -22,5 +22,5 @@ exports.getFastestPlayers = function(speed){
 }
 
 exports.getAllPlayers = function(){
-	return jsonObj;
+	return jsonObj.players;
 }
