@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<head>
+	<meta charset="UTF-8">
+	<title>Football Manager WS</title>
+	<link rel="stylesheet" type="text/css" href="assets/style.css">
+</head>
+	<body>
+		<div>
+		<h1>Football Manager API</h1>
+		<h2>Get Fastest Players</h2>
+		<p>This function accepts an integer value of the minimum speed of the player and returns a list of players.
+		<br>
+		Example:
+		<br>
+		<a href="https://football-manager-2016.herokuapp.com/getFastestPlayers/89">https://football-manager-2016.herokuapp.com/getFastestPlayers/89</a>
+		</p>
+		<h2>Get Player By Number</h2>
+		<p>This function accepts an integer value of player number  and returns a list of players.
+		<br>
+		Example:
+		<br>
+		<a href="https://football-manager-2016.herokuapp.com/getPlayerByNumber/10">https://football-manager-2016.herokuapp.com/getPlayerByNumber/10</a>
+		</p>
+		<h2>Get All Players</h2>
+		<p>This function returns a list of all the players.
+		<br>
+		Example:
+		<br>
+		<a href="https://football-manager-2016.herokuapp.com/getAllPlayers">https://football-manager-2016.herokuapp.com/getAllPlayers</a>
+		</p>
+		<br>
+		<h2>json stracture</h2>
+		<p>Provides information on player name and No. shirt that he wears.
+Also, the player features:
+Attack, defense, speed, dribbling.
+			<blockquote>
+			  <pre>
+<code>
+     {
+        "name":"Messi",
+        "number":10,
+        "properties":
+        {
+                "att":94,
+                "def":42,
+                "speed":89,
+                "dribbling":97
+        }
+    }
+</code>
+			  </pre>
+			</blockquote>
+		</p>
+		</div>
+	</body>
+</html>
